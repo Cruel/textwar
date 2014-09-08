@@ -53,3 +53,7 @@ gem 'rails_layout'
 
 # For heroku
 gem 'rails_12factor', group: :production
+
+# AngularJS
+gem 'angularjs-rails'
+gem 'angular-rails-templates'
