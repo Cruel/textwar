@@ -1320,3 +1320,8 @@ $sub-nav-active-cursor: default;
 // $range-slider-handle-cursor: pointer;
 
 @import 'foundation';
+
+.row.full-width {
+  width: 100%;
+  max-width: 100%;
+}
