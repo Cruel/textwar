@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password: m4ch1n32
+  password:
   socket: /var/run/mysqld/mysqld.sock
 
 development:
@@ -48,7 +48,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: textwar_production
-  username: textwar
-  password: <%= ENV['TEXTWAR_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+#  password: <%= ENV['TEXTWAR_DATABASE_PASSWORD'] %>
