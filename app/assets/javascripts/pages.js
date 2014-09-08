@@ -39,7 +39,8 @@ function runRandomTextAnimation(selector, callback){
                 });
         }
     ];
-    animation_array[Math.floor(animation_array.length * Math.random())]();
+//    animation_array[Math.floor(animation_array.length * Math.random())]();
+    animation_array[1]();
 }
 
 $(function(){
