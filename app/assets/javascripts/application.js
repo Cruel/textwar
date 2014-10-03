@@ -10,8 +10,12 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require glkote.min.js
+//= require quixe.min.js
 //= require jquery
 //= require jquery_ujs
+//= require noconflict.js
+
 //= require foundation
 
 //= require angular
@@ -21,9 +25,6 @@
 
 //= require angular-rails-templates
 //= require_tree ./angular/templates
-
-//= require glkote.min.js
-//= require quixe.min.js
 
 //= require devise.min.js
 //= require mm-foundation-tpls-0.3.1.min.js
