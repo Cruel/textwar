@@ -1,0 +1,9 @@
+<h3>Login</h3>
+
+<%= link_to "Facebook", user_omniauth_authorize_path(:facebook), target:'_blank', class:'auth facebook', data:{width:600, height:400, ng_click:'auth($event)'}  %>
+<span data-ng-show="error" class="alert radius label">
+    {{ error }}
+</span>
+
+<a class="button" ng-click="login()">Login</a>
+<a class="close-reveal-modal" ng-click="cancel()">&#215;</a>

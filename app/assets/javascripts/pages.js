@@ -1,5 +1,7 @@
+(function($){
+
 function setRandomTextFont(selector){
-    var font_array = [['bpdots',140], ['bpdotsminus',640], ['plexifont',1790]],
+    var font_array = [['bpdots',70], ['bpdotsminus',310], ['plexifont',840]],
         random_font = font_array[Math.floor(font_array.length * Math.random())];
     $(selector)
         .css('font-family', "'"+random_font[0]+"', serif")
@@ -43,6 +45,58 @@ function runRandomTextAnimation(selector, callback){
     animation_array[1]();
 }
 
+function animateBlockQuote(selector, callback){
+    var wait = 0;
+    $(selector)
+        .removeClass('hide')
+        .children().each(function(){
+            wait += $(this).data('delay');
+            console.log(this);
+            $(this).css('opacity',0).delay(wait).animate({opacity:1}, 1500);
+        });
+    $(selector).delay(wait+4000).fadeOut(2000, callback);
+}
+
+function testy(){
+    animateBlockQuote('#introquote');
+}
+
+function wrapBefore(func, before_func){
+    return function(x){
+        if (!before_func(x))
+            return;
+        func(x);
+    };
+}
+
+function intercept_ui_event(obj){
+    console.log(obj);
+    switch(obj.type){
+        case 'char':
+        case 'line':
+            alert(obj.value);
+//            return false;
+            break;
+    }
+    return true;
+};
+
+function resetGame(){
+    window.Glk = window.newGlk();
+    window.GlkOte = window.newGlkOte();
+    window.Quixe = window.newQuixe();
+    window.GlkOte.update = wrapBefore(window.GlkOte.update, function(x){
+        console.log(x);
+        return true;
+    });
+}
+
+window.loadGame = function(glulx_base64){
+    resetGame();
+    GiLoad.load_run(null, glulx_base64, 'base64');
+    GlkOte.getinterface().accept = wrapBefore(GlkOte.getinterface().accept, intercept_ui_event);
+};
+
 $(function(){
     var loadTime = $.now() - loadStartTime;
     setTimeout(function(){
@@ -50,8 +104,12 @@ $(function(){
             $('#title-wrapper').removeClass('hide');
             setRandomTextFont('.title-svg-text');
             runRandomTextAnimation('.title-svg-text', function(){
-                alert('ok');
+//                alert('ok');
             });
         });
     }, Math.max(0, 2000-loadTime));
+
+    $(document).foundation();
 });
+
+})(jQuery);

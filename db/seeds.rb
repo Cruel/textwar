@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Level.create! name: 'Level 1', filename: 'level1.txt'
+Level.create! name: 'Level 2', filename: 'level1.txt'

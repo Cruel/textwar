@@ -47,6 +47,7 @@ gem 'foundation-rails'
 gem 'devise', '~> 3.2.4'
 gem 'omniauth', '~> 1.0.0'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 # rails generate layout:devise foundation5
 gem 'rails_layout'
@@ -57,3 +58,5 @@ gem 'rails_12factor', group: :production
 # AngularJS
 gem 'angularjs-rails'
 gem 'angular-rails-templates'
+
+gem 'friendly_id', '~> 5.0.0'

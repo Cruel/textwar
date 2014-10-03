@@ -22,6 +22,12 @@
 //= require angular-rails-templates
 //= require_tree ./angular/templates
 
+//= require glkote.min.js
+//= require quixe.min.js
+
+//= require devise.min.js
+//= require mm-foundation-tpls-0.3.1.min.js
+
 //= require main.js
 //= require_tree ./angular
 //= require_tree .

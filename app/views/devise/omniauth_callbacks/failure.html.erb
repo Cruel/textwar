@@ -1,0 +1,7 @@
+<p><%= @error %>. Please close this window.</p>
+<script>
+    if(window.opener){
+        window.opener.modalAuthFailure("<%= @error %>");
+        window.close();
+    }
+</script>

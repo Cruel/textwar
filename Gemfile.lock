@@ -52,9 +52,11 @@ GEM
     execjs (2.2.1)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
-    foundation-rails (5.4.3.0)
+    foundation-rails (5.4.5.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
+    friendly_id (5.0.4)
+      activerecord (>= 4.0.0)
     hashie (1.2.0)
     hike (1.2.3)
     httpauth (0.2.1)
@@ -73,7 +75,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.4.1)
+    minitest (5.4.2)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     mysql2 (0.3.16)
@@ -87,6 +89,9 @@ GEM
       hashie (~> 1.2)
       rack
     omniauth-facebook (1.6.0)
+      omniauth-oauth2 (~> 1.1)
+    omniauth-google-oauth2 (0.2.4)
+      omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.1)
     omniauth-oauth2 (1.1.1)
       oauth2 (~> 0.8.0)
@@ -110,7 +115,7 @@ GEM
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
-    rails_layout (1.0.21)
+    rails_layout (1.0.22)
     rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
     railties (4.1.4)
@@ -120,7 +125,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.13.0)
     rake (10.3.2)
-    rdoc (4.1.1)
+    rdoc (4.1.2)
       json (~> 1.4)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -170,11 +175,13 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise (~> 3.2.4)
   foundation-rails
+  friendly_id (~> 5.0.0)
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
   omniauth (~> 1.0.0)
   omniauth-facebook
+  omniauth-google-oauth2
   pg
   rails (= 4.1.4)
   rails_12factor

@@ -1,0 +1,7 @@
+<p>Successfully logged in. Please close this window.</p>
+<script>
+    if(window.opener){
+        window.opener.modalAuthSuccess();
+        window.close();
+    }
+</script>
