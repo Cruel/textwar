@@ -60,3 +60,5 @@ gem 'angularjs-rails'
 gem 'angular-rails-templates'
 
 gem 'friendly_id', '~> 5.0.0'
+
+gem 'newrelic_rpm'

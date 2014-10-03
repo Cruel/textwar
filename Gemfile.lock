@@ -79,6 +79,7 @@ GEM
     multi_json (1.10.1)
     multipart-post (2.0.0)
     mysql2 (0.3.16)
+    newrelic_rpm (3.9.5.251)
     oauth2 (0.8.1)
       faraday (~> 0.8)
       httpauth (~> 0.1)
@@ -179,6 +180,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
+  newrelic_rpm
   omniauth (~> 1.0.0)
   omniauth-facebook
   omniauth-google-oauth2
