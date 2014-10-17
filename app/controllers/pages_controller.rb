@@ -7,4 +7,9 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def auth_failure
+    @error = params['error']
+    render layout: false
+  end
 end

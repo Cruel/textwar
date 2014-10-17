@@ -2,7 +2,7 @@ var app = angular.module("textwar", ['Devise','ngResource','ngRoute','templates'
 
 app.config(['$routeProvider','$locationProvider','AuthProvider',function($routeProvider, $locationProvider, AuthProvider) {
     $routeProvider.
-        when('/', {templateUrl: 'index.html'}).
+        when('/', {templateUrl: 'index.html', controller:'IntroController'}).
         when('/help', {templateUrl: 'help.html', controller:'BaseController'}).
         when('/levels', {templateUrl: 'levels/index.html', controller:'LevelsController'}).
         when('/level/:id', {templateUrl: 'levels/show.html', controller:'LevelsController'}).

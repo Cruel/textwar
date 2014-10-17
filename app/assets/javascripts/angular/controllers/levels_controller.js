@@ -14,6 +14,9 @@ app.controller('LevelsController', ['$scope', 'Level', '$routeParams', 'Auth', '
     // Otherwise must be index
     else {
         $scope.levels = Level.all();
+        $scope.levels.$promise.then(function(data){
+            window.loadLevelGraph(data);
+        });
     }
 
 }]);

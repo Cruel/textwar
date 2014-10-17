@@ -18,6 +18,9 @@
 
 //= require foundation
 
+//= require arbor
+//= require arbor-tween
+
 //= require angular
 //= require angular-resource
 //= require angular-route

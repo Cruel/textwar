@@ -1,4 +1,7 @@
-app.controller('BaseController', ['$scope','$modal','Auth','$http', function($scope,$modal,Auth,$http) {
+(function($){
+
+app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', function($scope,$modal,Auth,$http,$timeout) {
+
     $scope.logout = function(){
         Auth.logout();
     };
@@ -35,4 +38,15 @@ app.controller('BaseController', ['$scope','$modal','Auth','$http', function($sc
             });
         });
     });
+
+    var loadTime = $.now() - loadStartTime;
+    $timeout(function(){
+        $('.loading').fadeOut(1000, function(){
+            if ($scope.afterLoad)
+                $scope.afterLoad();
+        });
+    }, Math.max(0, 1500-loadTime));
+
 }]);
+
+})(jQuery);

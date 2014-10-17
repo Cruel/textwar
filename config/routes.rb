@@ -7,12 +7,14 @@ Rails.application.routes.draw do
   get 'pages/index'
   root 'pages#index'
 
+  get 'pages/auth_failure', as: 'auth_failure'
+
   devise_for :users, path: 'auth',
     :controllers => {
       omniauth_callbacks: 'omniauth_callbacks'
     }
 
   # Catch-all to let Angular do the work
-  get "*path" => "pages#index"
+  get '*path' => 'pages#index'
 
 end
