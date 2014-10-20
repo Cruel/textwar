@@ -11,8 +11,9 @@ app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', f
             controller: LoginModalController,
             windowClass: 'login-modal'
         });
-        $scope.modalInstance.result.then(function() {
+        $scope.modalInstance.result.then(function(msg) {
 //            console.log('modalInstance.result.then()');
+            if (msg == 'cancel') return;
             Auth.currentUser().then(function(user) {
                 if (callback)
                     callback(user);
@@ -29,7 +30,7 @@ app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', f
     $scope.$on('$locationChangeSuccess', function(){
         // TODO: fix double-closing error
         if ($scope.modalInstance)
-            $scope.modalInstance.close();
+            $scope.modalInstance.close('cancel');
     });
     $scope.$on('devise:unauthorized', function(event, xhr, deferred) {
         $scope.login(true, function(user){
