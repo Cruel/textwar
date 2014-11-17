@@ -17,11 +17,16 @@ function wrapBefore(func, before_func){
 }
 
 function intercept_ui_event(obj){
+    console.log('UI_EVENT:');
     console.log(obj);
     switch(obj.type){
         case 'char':
         case 'line':
-            alert(obj.value);
+            if (obj.value == 'test') {
+                alert('BLAM!');
+                return false;
+            }
+//            alert(obj.value);
 //            return false;
             break;
     }
@@ -33,7 +38,19 @@ function resetGame(){
     window.GlkOte = window.newGlkOte();
     window.Quixe = window.newQuixe();
     window.GlkOte.update = wrapBefore(window.GlkOte.update, function(x){
+        console.log('UPDATE:');
         console.log(x);
+        if (x.content[1]) {
+            var lines = x.content[1].text;
+            for (var i in lines) {
+                if (lines[i].content) {
+                    if (lines[i].content[1] == 'inv') {
+                        x.content[1].text = [];
+                        break;
+                    }
+                }
+            }
+        }
         return true;
     });
 }

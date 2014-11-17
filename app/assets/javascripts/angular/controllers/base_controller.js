@@ -1,6 +1,7 @@
 (function($){
 
 app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', function($scope,$modal,Auth,$http,$timeout) {
+    $scope.loaded = false;
 
     $scope.logout = function(){
         Auth.logout();
@@ -28,9 +29,12 @@ app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', f
         });
     };
     $scope.$on('$locationChangeSuccess', function(){
+        $scope.locationChanged = true;
         // TODO: fix double-closing error
         if ($scope.modalInstance)
             $scope.modalInstance.close('cancel');
+        if ($scope.onLocationChange)
+            $scope.onLocationChange();
     });
     $scope.$on('devise:unauthorized', function(event, xhr, deferred) {
         $scope.login(true, function(user){
@@ -43,6 +47,8 @@ app.controller('BaseController', ['$scope','$modal','Auth','$http','$timeout', f
     var loadTime = $.now() - loadStartTime;
     $timeout(function(){
         $('.loading').fadeOut(1000, function(){
+            $scope.loaded = true;
+            $scope.$apply();
             if ($scope.afterLoad)
                 $scope.afterLoad();
         });

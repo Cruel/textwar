@@ -1,4 +1,4 @@
-var app = angular.module("textwar", ['Devise','ngResource','ngRoute','templates','mm.foundation']);
+var app = angular.module("textwar", ['Devise','ngResource','ngRoute','templates','mm.foundation','ngAnimate']);
 
 app.config(['$routeProvider','$locationProvider','AuthProvider',function($routeProvider, $locationProvider, AuthProvider) {
     $routeProvider.
