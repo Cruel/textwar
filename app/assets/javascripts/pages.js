@@ -42,9 +42,29 @@ function resetGame(){
         console.log(x);
         if (x.content[1]) {
             var lines = x.content[1].text;
+            for (var i = lines.length-1; i >= 0; i--){
+                if (lines[i].content) {
+                    var text = lines[i].content[1];
+                    if (text.indexOf('An Interactive Fiction') > -1 || text.indexOf('Inform 7 build') > -1){
+                        x.content[1].text.splice(i,1);
+//                        break;
+                    }
+                    else if (lines[i].content[1] == 'inv') {
+                        x.content[1].text = [];
+                        break;
+                    }
+                }
+            }
+
+            return true;
             for (var i in lines) {
                 if (lines[i].content) {
-                    if (lines[i].content[1] == 'inv') {
+                    var text = lines[i].content[1];
+                    if (text.indexOf('An Interactive Fiction') > -1 || text.indexOf('Inform 7 build') > -1){
+                        x.content[1].text[i] = [];
+//                        break;
+                    }
+                    else if (lines[i].content[1] == 'inv') {
                         x.content[1].text = [];
                         break;
                     }
@@ -73,7 +93,18 @@ $(function(){
 //            });
 //        });
 //    }, Math.max(0, 2000-loadTime));
+    console.log($('#title-wrapper text')[0]);
 
+    $(document).keydown(function(e) {
+        switch(e.which) {
+            case 37: // left
+            case 38: // up
+            case 39: // right
+            case 40: // down
+                $('.Input').focus();
+        }
+        return;
+    });
     $(document).foundation();
 });
 

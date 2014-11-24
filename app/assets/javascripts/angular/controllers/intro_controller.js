@@ -4,10 +4,14 @@
 
         $scope.afterLoad = function(){
             console.log('afterload');
-            jQuery('.testy').click(function(){
+            jQuery('.testyy').click(function(){
                 var e = jQuery.Event('keypress');
                 e.which = 13; // Enter
                 jQuery('.Input').val('inv').trigger(e);
+            });
+            jQuery('.testy').click(function(){
+                $scope.playintro = true;
+                $scope.$apply();
             });
         };
 

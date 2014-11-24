@@ -43,13 +43,13 @@
                     .animate({
                         'stroke-dashoffset': 0
                     }, 4000, function () {
-                        $(this)
-                            .css('stroke-opacity', '0')
-                            .animate({
-                                'fill-opacity': 0.9
-                            }, 4000, function () {
-                                $(this).fadeOut(1000, callback);
-                            });
+//                        $(this)
+//                            .css('stroke-opacity', '0')
+//                            .animate({
+//                                'fill-opacity': 0.9
+//                            }, 4000, function () {
+//                                $(this).fadeOut(1000, callback);
+//                            });
                     });
             }
         ];
@@ -57,34 +57,41 @@
         animation_array[1]();
     }
 
-    app.directive('animateTitle', function() {
+    app.directive('animateTitle', ['$timeout', function($timeout) {
         return function(scope, element, attrs) {
-            scope.$watch('loaded', function() {
-                if (scope.loaded) {
-                    $('#title-wrapper').removeClass('hide');
-                    setRandomTextFont('.title-svg-text');
-                    console.log(attrs);
-//                element.show(300).delay(2000).hide(300, function(){
-//                    alert('mmk');
-//                });
-                    runRandomTextAnimation('.title-svg-text', function () {
-                        if (scope.locationChanged !== true) {
-                            alert('ok');
-                        }
-                    });
+            scope.$watch(attrs.animateTitle, function() {
+//                console.log(attrs);
+                if (attrs.animateTitle == '' || scope[attrs.animateTitle]) {
+                    $timeout(function(){
+                        $('#title-wrapper').removeClass('hide');
+                        setRandomTextFont('.title-svg-text');
+//                        console.log(attrs);
+//                        console.log(scope);
+//                        element.show(300).delay(2000).hide(300, function(){
+//                            alert('mmk');
+//                        });
+                        runRandomTextAnimation('.title-svg-text', function () {
+                            if (scope.locationChanged !== true) {
+                                $('#title-wrapper').addClass('hide');
+                                alert('ok');
+                            }
+                        });
+                    }, attrs.delay || 0);
                 }
             });
         };
-    });
+    }]);
 
-    app.directive('animateQuote', function() {
+    app.directive('animateQuote', ['$timeout', function($timeout) {
         return function(scope, element, attrs) {
-            scope.$watch('loaded', function() {
-                if (scope.loaded) {
-                    animateBlockQuote('#introquote');
+            scope.$watch(attrs.animateQuote, function() {
+                if (scope[attrs.animateQuote]) {
+                    $timeout(function(){
+                        animateBlockQuote('#introquote');
+                    }, attrs.delay || 0);
                 }
             });
         };
-    });
+    }]);
 
 })(jQuery);

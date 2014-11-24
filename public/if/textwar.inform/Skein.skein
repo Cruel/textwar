@@ -1,13 +1,2350 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x2aae7c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b59730" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x2aae7c0"/>
-  <item nodeId="node-0x2aae7c0">
+  <activeNode nodeId="node-0x7f57240f4dc0"/>
+  <item nodeId="node-0x1b59730">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">
+
+
+TextWar
+An Interactive Fiction by Thomas Edvalson
+Release 1 / Serial number 141122 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Menu
+Click here for help.
+
+You can see Leaky here.
+
+&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b598b0"/>
+      <child nodeId="node-0x1c8cc30"/>
+      <child nodeId="node-0x1ca85c0"/>
+      <child nodeId="node-0x1ca8740"/>
+      <child nodeId="node-0x31e5d00"/>
+      <child nodeId="node-0x7f57a41d42f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b598b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Menu
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b59a30"/>
+      <child nodeId="node-0x1c8c930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b59a30">
+    <command xml:space="preserve">x leaky</command>
+    <result xml:space="preserve">You see nothing special about Leaky.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b59bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b59bb0">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve"> &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b59d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b59d30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b59eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b59eb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba12e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba12e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1460">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba15e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba15e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1760">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba18e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba18e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1a60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1a60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1be0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1d60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ba1ee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ba1ee0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c632e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c632e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63460">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c635e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c635e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63760">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c638e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c638e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"> &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63a60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63a60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"> &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63be0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63d60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c63ee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c63ee0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8c1b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8c1b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8c330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8c330">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8c4b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8c4b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8c630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8c630">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8c7b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8c7b0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Cranial Capacity Calculation Chamber
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c8c930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8cab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8cab0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Start
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c8cc30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8cdb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8cdb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c8cf30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c8cf30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca8140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca8140">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca82c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca82c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca8440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca8440">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Cranial Capacity Calculation Chamber
+You can see Leaky here.
+
+TextWar
+An Interactive Fiction by Thomas Edvalson
+Release 1 / Serial number 141120 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Cranial Capacity Calculation Chamber
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1ca85c0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Cranial Capacity Calculation Chamber
+You can see Leaky here.
+
+TextWar
+An Interactive Fiction by Thomas Edvalson
+Release 1 / Serial number 141120 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Cranial Capacity Calculation Chamber
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1ca8740">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca88c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca88c0">
+    <command xml:space="preserve">ya</command>
+    <result xml:space="preserve"> &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca8a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca8a40">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Menu
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca8bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca8bc0">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x31e5d00">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve"> &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x31e5e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x31e5e80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+This is a simple demonstration Fiction game.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127190"/>
+      <child nodeId="node-0x7f57a41d4d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127190">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127310">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127490">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127610">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127790">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127910">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127a90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127c10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127d90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127d90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4127f10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4127f10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41462b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41462b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146430">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41465b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41465b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There is no score in this story.
+
+ &gt; Score notification on
+ &gt; Score notification on
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146730">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41468b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41468b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146a30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146bb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146d30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+*** Run-time problem P23: Attempt to look up a non-existent entry at column 3, row 5 of the table &apos;Table of Options&apos;.
+
+
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4146eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4146eb0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f2e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f460">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f5e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f5e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f760">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+This is a simple demonstration Fiction game.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415f8e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415f8e0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415fa60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415fa60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415fbe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415fbe0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415fd60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415fd60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+Thomas Edvalson is too reclusive to wish to disseminate any information. Sorry.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a415fee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a415fee0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181180">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181300">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181480">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181600">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181780">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181900">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181a80">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181c00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181d80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4181f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4181f00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199150">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41992d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41992d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199450">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+2/3: It&apos;s in the pantry.
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41995d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41995d0">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+2/3: It&apos;s in the pantry.
+
+3/3: Under some cloths.
+
+Press SPACE to return to the menu.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199750">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/3: Have you tried Dr. Seaton&apos;s Patent Arm-Lengthening Medication?
+
+2/3: It&apos;s in the pantry.
+
+3/3: Under some cloths.
+
+Press SPACE to return to the menu.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41998d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41998d0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+ &gt; How do I reach the mastodon&apos;s jawbone?
+   How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199a50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199a50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199bd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199bd0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199d50">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+2/18: Have you read the phrenology text in the library?
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a4199ed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a4199ed0">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+2/18: Have you read the phrenology text in the library?
+
+3/18: Have you found Dr. Seaton&apos;s plaster phrenology head?
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb150">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+2/18: Have you read the phrenology text in the library?
+
+3/18: Have you found Dr. Seaton&apos;s plaster phrenology head?
+
+4/18: Now you just need a way to compare this to Leaky&apos;s skull.
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb2d0">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+2/18: Have you read the phrenology text in the library?
+
+3/18: Have you found Dr. Seaton&apos;s plaster phrenology head?
+
+4/18: Now you just need a way to compare this to Leaky&apos;s skull.
+
+5/18: Too bad he won&apos;t sit still.
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb450">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb5d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb5d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+1/18: Perhaps it would help if you knew something about Leaky&apos;s personality.
+
+2/18: Have you read the phrenology text in the library?
+
+3/18: Have you found Dr. Seaton&apos;s plaster phrenology head?
+
+4/18: Now you just need a way to compare this to Leaky&apos;s skull.
+
+5/18: Too bad he won&apos;t sit still.
+
+Press SPACE to return to the menu or H to reveal another hint.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb750">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bb8d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bb8d0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bba50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bba50">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+   How do I reach the mastodon&apos;s jawbone?
+ &gt; How can I make Leaky leave me alone?
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bbbd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bbbd0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bbd50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bbd50">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Menu
+Click here for help.
+
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41bbed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41bbed0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Start
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4170">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Start
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f57a41d4d70">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4bf0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4a70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4ef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4ef0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f41c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f41c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4340">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+GC start game
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f44c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f44c0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+ &gt; Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4640">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+   About the Author
+ &gt; Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f47c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f47c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+   Settings
+ &gt; About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4940">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+   Introduction to TextWar
+ &gt; Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4ac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4ac0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4c40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+This is a simple demonstration Fiction game.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57240f4dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57240f4dc0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+ &gt; Introduction to TextWar
+   Settings
+   About the Author
+   Hints
+   Start Game
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f57a41d42f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Start
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4470">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Menu
+Click here for help.
+
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d45f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d45f0">
+    <command xml:space="preserve">go to start</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d4770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d4770">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Menu
+Click here for help.
+
+You can see Leaky here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f57a41d48f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f57a41d48f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Start
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>

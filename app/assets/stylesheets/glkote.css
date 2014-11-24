@@ -104,7 +104,7 @@
     -moz-border-radius: 4px;
 }
 
-.Input {
+input.Input, input.Input:focus {
     /* This class mimicks the Style_input class. It also eliminates the
        usual decoration of an <input> field, as much as possible. */
     border: none;
@@ -114,6 +114,9 @@
     outline-style: none;
     background: none;
     font-weight: bold;
+
+    box-shadow: none;
+    height: 18px;
 }
 
 .BufferWindow .Input {

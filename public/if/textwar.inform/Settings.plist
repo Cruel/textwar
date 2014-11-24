@@ -20,11 +20,11 @@
 	<key>IFOutputSettings</key>
 	<dict>
 		<key>IFSettingCreateBlorb</key>
-		<true/>
+		<false/>
 		<key>IFSettingNobbleRng</key>
 		<false/>
 		<key>IFSettingZCodeVersion</key>
-		<integer>8</integer>
+		<integer>256</integer>
 	</dict>
 </dict>
 </plist>
